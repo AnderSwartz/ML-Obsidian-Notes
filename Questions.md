@@ -1,0 +1,1 @@
+If you project the data to high enough dimensions when using the kernel trick, you can always fit the training set. This will usually lead to poor generalization. Is this really true? Maybe do test of this?

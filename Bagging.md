@@ -1,0 +1,3 @@
+- Another instance of [[Ensemble methods]]
+- A strategy where you sample from the training set to create addition training sets (called *bootstrapped samples*, such as for [[Random Forests]]. 
+- They are created using random sampling with dataset.

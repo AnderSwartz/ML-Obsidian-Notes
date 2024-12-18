@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"23494d82b7feeec7","type":"text","text":"Ensemble methods","x":-162,"y":-206,"width":195,"height":60},
+		{"id":"287be4fc5b1caad9","type":"text","text":"Bagging","x":-377,"y":-80,"width":195,"height":60},
+		{"id":"7e2ca375068bdd9a","type":"text","text":"Random Forests","x":-377,"y":54,"width":195,"height":60},
+		{"id":"5d8d975485cda25c","type":"text","text":"Boosting","x":40,"y":-80,"width":195,"height":60},
+		{"id":"3ce3152178c57199","x":180,"y":54,"width":220,"height":86,"type":"text","text":"Gradient boosting (uses residuals)"},
+		{"id":"0681d9a97593a9e6","x":-100,"y":54,"width":195,"height":60,"type":"text","text":"Adaboost (uses weights)"}
+	],
+	"edges":[
+		{"id":"0342e4d8bca4c9bd","fromNode":"23494d82b7feeec7","fromSide":"bottom","toNode":"287be4fc5b1caad9","toSide":"top"},
+		{"id":"69cf49d5a05ea820","fromNode":"23494d82b7feeec7","fromSide":"bottom","toNode":"5d8d975485cda25c","toSide":"top"},
+		{"id":"02da2fcb908c4ceb","fromNode":"287be4fc5b1caad9","fromSide":"bottom","toNode":"7e2ca375068bdd9a","toSide":"top"},
+		{"id":"c92be0a83d78dc0e","fromNode":"5d8d975485cda25c","fromSide":"bottom","toNode":"0681d9a97593a9e6","toSide":"top"},
+		{"id":"2b38376c8e952444","fromNode":"5d8d975485cda25c","fromSide":"bottom","toNode":"3ce3152178c57199","toSide":"top"}
+	]
+}

@@ -1,0 +1,173 @@
+{
+  "main": {
+    "id": "488f9782ca71c757",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab9a9b908dc63c1f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76fb7a3023691905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Adaptive boosting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adaptive boosting"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6a4b91305621e5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2913c3ef912cfb5f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f77908f7bcfebbe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a253525393e4e131",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9318e264e3dcb84c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7bcb78ec9bbe936c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0359e99881e1ca7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3af68cec3ff7db88",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Adaptive boosting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Adaptive boosting"
+            }
+          },
+          {
+            "id": "a656661a53fe1372",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Adaptive boosting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Adaptive boosting"
+            }
+          },
+          {
+            "id": "1fb3441aaac71ad5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c6dff33d6660b32d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Adaptive boosting.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Adaptive boosting"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "76fb7a3023691905",
+  "lastOpenFiles": [
+    "Evaluation Metrics.md",
+    "Decision Trees.md",
+    "Cross validation.md",
+    "Combined Algorithm Selection and Hyperparameter (CASH) Optimization.md",
+    "CNNs.md"
+  ]
+}
