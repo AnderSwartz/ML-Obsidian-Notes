@@ -1,0 +1,8 @@
+In DL, each hidden layer acts as a transformation of the data, transforming it to a new space. In a proper DL NN, the final hidden layer of hidden units has successfully transformed the data to a space that a linear layer can classify (the last set of weights is usually linear). So in the representation of the final hidden layer.
+"This ability to discover a nonlinear transformation of the data that makes subsequent tasks easier to solve is called representation learning (Bengio, Courville, and Vincent, 2012). The learned representation, sometimes called the embedding space, is given by the outputs of one of the hidden layers of the network, so that any input vector, either from the training set or from some new data set, can be transformed into this representation by forward propagation through the network. (Bishop 188). "
+
+Representational learning occurs in autoencoders when they learn an internal representation within a small amount of hidden units. This can be thought of as compressing the input
+
+# Contrastive Learning
+Its an example of representative learning.
+"The idea is to learn a representation such that certain pairs of inputs, referred to as positive pairs, are close in the embedding space, and other pairs of inputs, called negative pairs, are far apart. The intuition is that if we choose our positive pairs in such a way that they are semantically similar and choose negative pairs that are semantically dissimilar, then we will learn a representation space in which similar inputs are close, making downstream tasks, such as classification, much easier. (Bishop 191). "

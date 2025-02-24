@@ -4,24 +4,123 @@
     "type": "split",
     "children": [
       {
-        "id": "ab9a9b908dc63c1f",
+        "id": "15dcf4d17cb709e4",
         "type": "tabs",
         "children": [
           {
-            "id": "76fb7a3023691905",
+            "id": "05633faa8baf3d61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Adaptive boosting.md",
+                "file": "RMSprop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Adaptive boosting"
+              "title": "RMSprop"
+            }
+          },
+          {
+            "id": "3c7b6f2f003ad9c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Momentum.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Momentum"
+            }
+          },
+          {
+            "id": "e76da59d1c751c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hessian and Curvature.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hessian and Curvature"
+            }
+          },
+          {
+            "id": "c4e6f979843f0d38",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CNNs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CNNs"
+            }
+          },
+          {
+            "id": "2e95d23d7684cd7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Distributed Representations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Distributed Representations"
+            }
+          },
+          {
+            "id": "b0db357ac73d2e33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NNDL HW1 Questions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NNDL HW1 Questions"
+            }
+          },
+          {
+            "id": "5403a84cfbad4a7e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Convexity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Convexity"
+            }
+          },
+          {
+            "id": "9fbe4b6a976615c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logistic Regression.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Logistic Regression"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -40,7 +139,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +152,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "function is convex w.r.t",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,11 +173,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7bcb78ec9bbe936c",
@@ -93,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Adaptive boosting.md",
+                "file": "Transformations for Target.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +205,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Adaptive boosting"
+              "title": "Backlinks for Transformations for Target"
             }
           },
           {
@@ -112,12 +214,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Adaptive boosting.md",
+                "file": "Transformations for Target.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Adaptive boosting"
+              "title": "Outgoing links from Transformations for Target"
             }
           },
           {
@@ -139,10 +241,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adaptive boosting.md"
+                "file": "Transformations for Target.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Adaptive boosting"
+              "title": "Outline of Transformations for Target"
             }
           }
         ]
@@ -162,12 +264,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "76fb7a3023691905",
+  "active": "2e95d23d7684cd7e",
   "lastOpenFiles": [
+    "CNNs.md",
+    "attachments/Pasted image 20250220152141.png",
+    "NNDL HW1 Questions.md",
+    "attachments/Pasted image 20250218170833.png",
+    "attachments/Pasted image 20250218170733.png",
+    "attachments/Pasted image 20250218170702.png",
+    "attachments/Pasted image 20250218170630.png",
+    "attachments/Pasted image 20250218170554.png",
+    "attachments/Pasted image 20250218170542.png",
+    "Hessian and Curvature.md",
+    "Convexity.md",
+    "Logistic Regression.md",
+    "Momentum.md",
+    "attachments/Pasted image 20250217174939.png",
+    "RMSprop.md",
+    "ADAM.md",
+    "Gradient Descent.md",
+    "attachments/Pasted image 20250213170642.png",
+    "attachments/Pasted image 20250213165956.png",
+    "Activation Functions.md",
+    "Max Likelihood Estimation.md",
+    "PCA.md",
+    "Universality of NNs with nonlinearity.md",
+    "Perceptron.md",
+    "Linear Regression.md",
+    "Feature engineering.md",
+    "Error surfaces.md",
     "Evaluation Metrics.md",
-    "Decision Trees.md",
-    "Cross validation.md",
-    "Combined Algorithm Selection and Hyperparameter (CASH) Optimization.md",
-    "CNNs.md"
+    "Curse of dimensionality.md",
+    "Distributed Representations.md",
+    "Linear Models.md",
+    "Support Vector Machines (SVM).md",
+    "Train-Test Split.md",
+    "Probability vs Likelihood.md",
+    "Neural Networks.md",
+    "attachments"
   ]
 }

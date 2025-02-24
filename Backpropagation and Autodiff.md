@@ -1,0 +1,1 @@
+We first compute all of the values in a forward pass, and then compute the derivatives in a backward pass.

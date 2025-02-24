@@ -100,7 +100,7 @@ alpha is inversely proportional to C
 
 ## Gaussian Kernel
 ![[Pasted image 20241011102658.png]]
-Intuition is that the points can be projected into an infinite dimensional space, and youll alwyas be able to separate points in lower spaces in a higher dim space. This, you can separate the points perfectly (achieving a training error of 0). The gamme aocntrols the dim of the space? #look_into 
+Intuition is that the points can be projected into an infinite dimensional space, and youll alwyas be able to separate points in lower spaces in a higher dim space. This, you can separate the points perfectly (achieving a training error of 0). The gamme controls the dim of the space? #look_into 
 
 In general, when the problem isn't linearly separable, the support vectors are the samples within the margin boundaries. Otherwise, they lie on the boundaries.
 

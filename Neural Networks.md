@@ -14,12 +14,7 @@ in this case, y is just a number, and w is a vector
 so y = h(s)w
 if its classification, sigmoid(y) to get a prob
 # Activation function
-#interview_question Where is non-linearity in NNs?
-Just in the activation function!
 
-A linear activation function would reduce the NN to a linear model
-
-Common activation functions: tanh, ReLU, and sigmoid
 
 # Backpropagation
 ![[Pasted image 20241104202436.png]]

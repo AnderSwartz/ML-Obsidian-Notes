@@ -38,6 +38,11 @@ Bias gets added after the multiplication
 	In CNN, there are less connections. 
 	In CNNs, there are ==sparse connections==
 2. "Because you are estimating the weights of the kernel, you have a lot of parameter sharing"
+3. You want hidden units to encode localized information, not information about the entire image
+	1. In a fully connected network, all hidden units would connect to all inputs (the whole image)
+4. Feature detectors can be shared across different locations (translation invariance)
+
+
 
 Intuition is that the relevant information of each feature is relatively local
 
@@ -48,3 +53,48 @@ After the conv. layer,
 # 3D
 If we have a 32x32x3, we need a 3D kernel.
 Like before, after each application of the kernel (after each slide), it produces a single number. If you slide this kernel over the image and use the right padding, you get an output (feature map) with size, 32x32x1
+
+# Equavariance
+Quality of the CNN layers: IF we shift the input, the output (activation map) changes in a proportional way
+
+# Invariance
+Quality of the model outputs: IF we shift the input, the output does not change
+
+Pooling layers are slightly invariant
+
+Each point in an activation map has a **receptive field**, which is the places in the input that contribute to that point
+
+# Tied weights / weight sharing
+In CNNs, the weights that get applied when a kernel moves over the beginning of an image are the same weights that get applied when a kernel moves over the later part of the image
+
+We want to learn the weights for the kernels that work when applied to any location
+
+## Advantages of tied weights
+1. Translation invariance - learned filters are not specific to certain parts of image
+2. Fewer params - instead of learning separate weights for each position, we only need to learn one set of weights for each kernel that work everywhere
+3. Better generalization - With fewer params, avoid memorizing specific, localized details
+
+## Weights vs Connections
+- **Weights** are learned parameters that make up the kernel.
+	- Below, there are 3 weights in the kernel (BGR)
+- **Connections** are all combinations of these weights connected with their corresponding feature map location
+	- Below, there are 9 connections. 'valid' padding means # of output units = input - kernel_size +1 = 3 (when stride = 1)
+	- There are even connections in Pooling! no weights
+	- In FC layers, weights = connections
+![[Pasted image 20250220152141.png]]
+
+## Backprop
+First, find dL/d_feature_map
+since same filter was applied everywhere, each filter position contributes to the gradient of the filter
+
+Therefore, we have to see how the filter's weights contributed to each position in the feature map, and sum these values.
+
+we have to compute the gradients for each location in the image and avg those gradients
+
+
+![[Pasted image 20250218170542.png]]
+![[Pasted image 20250218170554.png]]
+![[Pasted image 20250218170630.png]]
+![[Pasted image 20250218170702.png]]
+![[Pasted image 20250218170733.png]]
+![[Pasted image 20250218170833.png]]

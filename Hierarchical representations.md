@@ -1,0 +1,3 @@
+The central motivation behind adding more layers and doing deep learning:
+"The relationship between the pixels of an image and a high-level concept such as ‘cat’ is highly complex and nonlinear, and would be an extremely challenging problem for a two-layer network. However, a deep neural network can learn to detect low-level features, such as edges, in the early layers, and can then combine these in subsequent layers to make higher-level features such as eyes or whiskers, which in turn can be combined in later layers to detect the presence of a cat. This can be viewed as a compositional inductive bias, in which higher-level objects, such as a cat, are composed of lower-level objects, such as eyes, which in turn have yet lower-level elements such as edges.
+(Bishop 187). 

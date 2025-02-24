@@ -12,6 +12,7 @@ this makes them bad at dealing with sequences, because it doesn't know that each
 you can take the output after each time step, but often times you don't care about them.
 Only take output for last input for sentiment analysis. 
 But for named entity recognition (many to many) you can take output after each time step
+![[Pasted image 20250119113104.png]]
 
 # What is happening in the cell?
 
