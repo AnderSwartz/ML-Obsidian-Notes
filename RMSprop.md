@@ -17,7 +17,18 @@ Fundamentally, asks "how consistent are your squared gradients"
 
 This is specific to each param (dim)
 - you can be oscillating in some dims but not others
+![[Pasted image 20250302101538.png]]
+we square the each component in the gradient to get the magnitude, since we don't care about whether its pos or neg. If that magnitude is larger, you are in a point with high curvature??
+When gamma is large, you use more of the current gradient and less of the history
 
+
+
+![[Pasted image 20250302101142.png]]
+
+Intuition: the squared gradients give an approximation of the curvature.
+In low-curvature regions, the squared gradient tends to be smaller, and vice versa
+
+if sj is large (the moving avg of squared gradients) (also, when curvature tends to be large), then the coefficient in front of the gradient gets smaller, and vice versa
 
 
 # Adagrad

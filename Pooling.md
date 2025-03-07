@@ -1,0 +1,3 @@
+- No weights (nothing to learn!)
+- Still connections
+	- If the previous CNN layer outputted N feature maps, there are N connections (assuming your pooling doesn't overlap)

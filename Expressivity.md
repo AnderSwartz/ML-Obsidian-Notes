@@ -1,0 +1,1 @@
+A more expressive model can fit **training** data to a wider range of functions. Higher expressivity is not always desired because it can lead to overfitting.

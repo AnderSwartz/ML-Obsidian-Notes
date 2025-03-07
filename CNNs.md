@@ -83,6 +83,31 @@ We want to learn the weights for the kernels that work when applied to any locat
 	- In FC layers, weights = connections
 ![[Pasted image 20250220152141.png]]
 
+
+
+# Size of units
+Why is it important?
+ - During training: number of units makes the number of add-multiplies grow quadratically (only during training!
+	 - During forward pass, activations get calculated and stored for later use during backprop
+ - During test time, you don't need to remember activations! pass to next layer and delete
+
+# Size of weights
+Why is it important?
+- Every weight needs to be stored in memory during trained AND testing
+	- If only a small amount of weights are needed to run the model, it can run on a cell phone!
+- Generally speaking, more weights allow for more overfitting
+- For every weight in backward pass, we will need to find the partial der of the cost wrt it
+
+# Size of connections
+Why is it important?
+- For every connection in forward pass, it contributes 1 add-multiply (NOTE: THIS ISN'T TRUE FOR WEIGHTS)
+- For every connection in backwards pass, it contributes 2 add-multiply 
+
+In general, most weights will come from the FC layers, where weights = connections
+most connections and units will come from Convolutional layers
+
+
+
 ## Backprop
 First, find dL/d_feature_map
 since same filter was applied everywhere, each filter position contributes to the gradient of the filter
