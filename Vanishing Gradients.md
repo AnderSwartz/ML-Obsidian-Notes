@@ -1,0 +1,1 @@
+Trying to hold on to activations of a hidden unit in an RNN is hard over large periods of time.

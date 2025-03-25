@@ -40,3 +40,8 @@ In recommender systems, they use LSTMnet
 
 
 #interview_question exploration vs exploitation
+
+# Shared Weights
+The weights going to themselves are shared within a layer, but not across layers
+
+[[Backprop through time]]
