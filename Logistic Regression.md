@@ -29,12 +29,7 @@ Strangely, dLSE/dz gets smaller the more wrong you are. the more confident the w
 it doesn’t distinguish bad predictions from extremely bad predictions
 ```
 
-
-## Cross-entropy, the solution
-![[Pasted image 20250126191807.png]]
-equivalent to $LCE(y, t) = −tlog y − (1 − t) log 1 − y.$
-Cross-entropy solves the previous problem because it draws big distinctions between probabilities close to 0 or 1
-
+ [[cross entropy loss]]  solves the previous problem because it draws big distinctions between probabilities close to 0 or 1
 
 Log likelihood function
 ![[Pasted image 20240920132203.png]]
